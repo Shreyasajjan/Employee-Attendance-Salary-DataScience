@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated database
+*.db
+
+# Generated models
+models/*.pkl
+
+# Generated outputs
+outputs/figures/*
+outputs/predictions/*
+outputs/reports/*
+
+# Local/generated data
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/reports/.gitkeep
+
+# Environment/secrets
+.env
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
