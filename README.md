@@ -227,4 +227,4 @@ The pipeline validates:
 
 ## 19. Author
 
-Add your name, college, department, GitHub repository and contact information before final submission.
+Shreya Sajjan
